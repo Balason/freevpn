@@ -1,6 +1,6 @@
 port: 7890
 socks-port: 7891
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
@@ -8,14 +8,13 @@ external-controller: 127.0.0.1:9090
 proxy-providers:
   all:
     type: http
-    path: ./all_gk.yaml
+    path: ./allgk.yaml
     url: https://raw.githubusercontent.com/gankang/freevpn/master/proxies
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-
 proxy-groups:
   - name: 🚀 模式选择
     type: select
@@ -24,38 +23,32 @@ proxy-groups:
       - 🔮 负载均衡
       - 🔯 故障转移
       - 🎯 全球直连
-
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use:
         - all
-
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     use:
         - all
-
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     use:
         - all
-
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
-
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
