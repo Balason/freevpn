@@ -15,6 +15,7 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+
 proxy-groups:
   - name: 🚀 模式选择
     type: select
@@ -23,32 +24,38 @@ proxy-groups:
       - 🔮 负载均衡
       - 🔯 故障转移
       - 🎯 全球直连
+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use:
         - all_gk
+
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     use:
         - all_gk
+
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     use:
         - all_gk
+
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
+
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
