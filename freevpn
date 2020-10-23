@@ -1,8 +1,8 @@
-allow-lan: true
+allow-lan: false
 external-controller: 127.0.0.1:9090
 log-level: info
+mixed-port: 7890
 mode: Rule
-port: 7890
 proxies:
 - cipher: aes-256-gcm
   country: "\U0001F1E6\U0001F1EA AE"
@@ -16804,4 +16804,3 @@ rules:
 - "IP-CIDR,101.199.196.0/22,\U0001F3AF \u5168\u7403\u76F4\u8FDE,no-resolve"
 - "GEOIP,CN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
 - "MATCH,\U0001F680 \u6A21\u5F0F\u9009\u62E9"
-socks-port: 7891
