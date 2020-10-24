@@ -6,7 +6,7 @@ mode: Rule
 proxies:
 - cipher: aes-128-gcm
   country: "\U0001F1E8\U0001F1F3 CN"
-  name: "\U0001F1E8\U0001F1F3 CN_167 "
+  name: "\U0001F1E8\U0001F1F3 CN_169 "
   password: uuB6RE2
   port: 100
   server: 183.232.136.231
@@ -15,7 +15,7 @@ proxies:
   cipher: auto
   country: "\U0001F1E8\U0001F1F3 CN"
   http-opts: {}
-  name: "\U0001F1E8\U0001F1F3 CN_168 "
+  name: "\U0001F1E8\U0001F1F3 CN_170 "
   network: ws
   port: 65510
   server: 120.240.48.232
@@ -31,7 +31,7 @@ proxies:
   cipher: auto
   country: "\U0001F1E8\U0001F1F3 CN"
   http-opts: {}
-  name: "\U0001F1E8\U0001F1F3 CN_169 "
+  name: "\U0001F1E8\U0001F1F3 CN_171 "
   network: tcp
   port: 46200
   server: 120.232.96.59
@@ -42,80 +42,30 @@ proxies:
   ws-headers:
     HOST: ggzau2.liyun.edu.pl
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: "\U0001F1E8\U0001F1F3 CN"
-  http-opts: {}
-  name: "\U0001F1E8\U0001F1F3 CN_170 "
-  network: ws
-  port: 80
-  server: 183.232.53.121
-  servername: lcyjtrhwrkot7b1u.traveludream.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8b784f8f-5c33-5a23-4c6b-ad3a8c859727
-  ws-headers:
-    HOST: lcyjtrhwrkot7b1u.traveludream.com
-  ws-path: /hmi5n2ka5mqo9vkw
 - cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_374 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.57.185
-  type: ss
-- cipher: aes-256-cfb
   country: "\U0001F1ED\U0001F1F0 HK"
   name: "\U0001F1ED\U0001F1F0 HK_375 "
-  password: c97fce048
-  port: 18888
-  server: 103.73.66.217
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_376 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.57.66
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_377 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.57.68
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_378 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.37.158
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_379 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 212.102.42.201
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_380 "
+  name: "\U0001F1ED\U0001F1F0 HK_376 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 212.102.42.206
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_381 "
+  name: "\U0001F1ED\U0001F1F0 HK_377 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 212.102.42.209
   type: ss
 - cipher: xchacha20-ietf-poly1305
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_382 "
+  name: "\U0001F1ED\U0001F1F0 HK_378 "
   password: t.me/SSRSUB
   plugin: obfs
   plugin-opts:
@@ -126,21 +76,63 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_383 "
+  name: "\U0001F1ED\U0001F1F0 HK_379 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 84.17.37.160
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_384 "
+  name: "\U0001F1ED\U0001F1F0 HK_380 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 212.102.42.199
   type: ss
-- cipher: xchacha20-ietf-poly1305
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_381 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.57.185
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_382 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.57.148
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_383 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 212.102.42.194
+  type: ss
+- cipher: aes-256-cfb
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_384 "
+  password: c97fce048
+  port: 18888
+  server: 103.73.66.217
+  type: ss
+- cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
   name: "\U0001F1ED\U0001F1F0 HK_385 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.37.158
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_386 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 212.102.42.211
+  type: ss
+- cipher: xchacha20-ietf-poly1305
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_387 "
   password: t.me/SSRSUB
   plugin: obfs
   plugin-opts:
@@ -151,42 +143,35 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_386 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.37.154
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_387 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 84.17.57.148
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
   name: "\U0001F1ED\U0001F1F0 HK_388 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 212.102.42.194
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_389 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 84.17.57.73
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_389 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.57.68
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
   name: "\U0001F1ED\U0001F1F0 HK_390 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 212.102.42.211
+  server: 84.17.57.66
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1ED\U0001F1F0 HK"
+  name: "\U0001F1ED\U0001F1F0 HK_391 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.37.154
   type: ss
 - cipher: aes-256-cfb
   country: "\U0001F1ED\U0001F1F0 HK"
-  name: "\U0001F1ED\U0001F1F0 HK_391 "
+  name: "\U0001F1ED\U0001F1F0 HK_392 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
@@ -197,22 +182,10 @@ proxies:
   cipher: auto
   country: "\U0001F1ED\U0001F1F0 HK"
   http-opts: {}
-  name: "\U0001F1ED\U0001F1F0 HK_392 "
-  network: ws
-  port: 80
-  server: 168.63.136.57
-  skip-cert-verify: true
-  type: vmess
-  uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  country: "\U0001F1ED\U0001F1F0 HK"
-  http-opts: {}
   name: "\U0001F1ED\U0001F1F0 HK_393 "
   network: ws
   port: 80
-  server: 13.94.24.121
+  server: 13.75.88.97
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -224,7 +197,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_394 "
   network: ws
   port: 80
-  server: 13.88.219.133
+  server: 168.63.153.245
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -236,7 +209,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_395 "
   network: ws
   port: 80
-  server: 23.100.95.18
+  server: 65.52.184.109
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -248,7 +221,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_396 "
   network: ws
   port: 80
-  server: 52.175.13.215
+  server: 23.98.33.11
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -260,7 +233,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_397 "
   network: ws
   port: 80
-  server: 65.52.173.54
+  server: 13.70.5.63
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -272,7 +245,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_398 "
   network: ws
   port: 80
-  server: 13.75.119.242
+  server: 13.75.45.84
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -284,7 +257,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_399 "
   network: ws
   port: 80
-  server: 23.98.32.240
+  server: 65.52.179.224
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -296,7 +269,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_400 "
   network: ws
   port: 80
-  server: 13.75.75.63
+  server: 23.99.97.140
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -308,7 +281,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_401 "
   network: ws
   port: 80
-  server: 13.75.114.176
+  server: 52.229.188.168
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -320,7 +293,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_402 "
   network: ws
   port: 80
-  server: 13.75.66.24
+  server: 13.70.19.238
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -331,12 +304,12 @@ proxies:
   http-opts: {}
   name: "\U0001F1ED\U0001F1F0 HK_403 "
   network: ws
-  port: 63132
-  server: 52.175.16.108
+  port: 80
+  server: 13.70.21.204
   skip-cert-verify: true
   type: vmess
-  uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4
-  ws-path: /dwn
+  uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
+  ws-path: /
 - alterId: 2
   cipher: auto
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -344,7 +317,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_404 "
   network: ws
   port: 80
-  server: 13.94.27.181
+  server: 52.229.154.76
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -356,7 +329,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_405 "
   network: ws
   port: 80
-  server: 13.75.75.154
+  server: 52.229.207.60
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -368,7 +341,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_406 "
   network: ws
   port: 80
-  server: 13.75.64.227
+  server: 52.229.206.45
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -380,7 +353,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_407 "
   network: ws
   port: 80
-  server: 23.99.120.101
+  server: 52.175.57.81
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -392,7 +365,7 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_408 "
   network: ws
   port: 80
-  server: 23.99.122.243
+  server: 23.101.12.164
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -404,19 +377,28 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_409 "
   network: ws
   port: 80
-  server: 23.98.32.240
-  servername: 33.HKG.ASIA.BIGAIRPORT.NET
+  server: 168.63.138.224
   skip-cert-verify: true
   type: vmess
-  uuid: 670c65e4-891f-4679-a6ec-508484b8db23
-  ws-headers:
-    HOST: 33.HKG.ASIA.BIGAIRPORT.NET
+  uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: "\U0001F1ED\U0001F1F0 HK"
+  http-opts: {}
+  name: "\U0001F1ED\U0001F1F0 HK_410 "
+  network: ws
+  port: 80
+  server: 23.98.42.126
+  skip-cert-verify: true
+  type: vmess
+  uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
   ws-path: /
 - alterId: 0
   cipher: auto
   country: "\U0001F1ED\U0001F1F0 HK"
   http-opts: {}
-  name: "\U0001F1ED\U0001F1F0 HK_410 "
+  name: "\U0001F1ED\U0001F1F0 HK_411 "
   network: tcp
   port: 31626
   server: 223.17.131.121
@@ -428,22 +410,10 @@ proxies:
   cipher: auto
   country: "\U0001F1ED\U0001F1F0 HK"
   http-opts: {}
-  name: "\U0001F1ED\U0001F1F0 HK_411 "
-  network: ws
-  port: 80
-  server: 13.94.29.154
-  skip-cert-verify: true
-  type: vmess
-  uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  country: "\U0001F1ED\U0001F1F0 HK"
-  http-opts: {}
   name: "\U0001F1ED\U0001F1F0 HK_412 "
   network: ws
   port: 80
-  server: 23.97.77.196
+  server: 207.46.153.113
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
@@ -455,66 +425,59 @@ proxies:
   name: "\U0001F1ED\U0001F1F0 HK_413 "
   network: ws
   port: 80
-  server: 13.88.218.76
+  server: 13.70.21.60
   skip-cert-verify: true
   type: vmess
   uuid: 889e56ba-6cf7-44aa-bf49-1099bcacc508
   ws-path: /
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_496 "
+  name: "\U0001F1EF\U0001F1F5 JP_497 "
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   server: 172.105.192.135
   type: ss
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_497 "
+  name: "\U0001F1EF\U0001F1F5 JP_498 "
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   server: 172.105.192.135
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_498 "
+  name: "\U0001F1EF\U0001F1F5 JP_499 "
   password: yxGY7A5MczQYg6UqSFx9u78V
   port: 34762
   server: 103.208.221.227
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_499 "
+  name: "\U0001F1EF\U0001F1F5 JP_500 "
   password: yxGY7A5MczQYg6UqSFx9u78V
   port: 34762
   server: 82.102.28.125
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_500 "
+  name: "\U0001F1EF\U0001F1F5 JP_501 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 103.208.221.227
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_501 "
+  name: "\U0001F1EF\U0001F1F5 JP_502 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 45.87.213.245
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_502 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 45.87.213.103
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_503 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 45.87.213.85
+  server: 45.87.213.103
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -547,81 +510,76 @@ proxies:
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_508 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 185.242.4.163
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_509 "
   password: yxGY7A5MczQYg6UqSFx9u78V
   port: 34762
   server: 45.87.213.23
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_510 "
+  name: "\U0001F1EF\U0001F1F5 JP_509 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 84.17.34.24
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_511 "
+  name: "\U0001F1EF\U0001F1F5 JP_510 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 45.87.213.211
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_512 "
+  name: "\U0001F1EF\U0001F1F5 JP_511 "
   password: yxGY7A5MczQYg6UqSFx9u78V
   port: 34762
   server: 45.87.213.21
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_513 "
+  name: "\U0001F1EF\U0001F1F5 JP_512 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 89.187.161.239
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_514 "
+  name: "\U0001F1EF\U0001F1F5 JP_513 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 45.87.213.3
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
+  country: "\U0001F1EF\U0001F1F5 JP"
+  name: "\U0001F1EF\U0001F1F5 JP_514 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 185.242.4.163
+  type: ss
+- cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_515 "
-  obfs: plain
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
-  protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.105.215.232
-  type: ssr
-- cipher: aes-256-cfb
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 45.87.213.85
+  type: ss
+- cipher: aes-256-gcm
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_516 "
-  obfs: plain
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.104.99.210
-  type: ssr
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 84.17.34.46
+  type: ss
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_517 "
   obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.104.99.210
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.105.215.232
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -629,7 +587,7 @@ proxies:
   obfs: plain
   obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
   protocol_param: WWW.YOUNEED.WIN
   server: 172.104.127.208
@@ -638,55 +596,46 @@ proxies:
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_519 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
-  server: 172.104.99.210
+  server: 172.105.215.232
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_520 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
-  server: 172.105.215.232
+  server: 172.104.99.210
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_521 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
-  server: 172.104.99.210
+  server: 172.105.215.232
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_522 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
-  server: 172.105.215.232
+  protocol_param: t.me/SSRSUB
+  server: 172.104.127.208
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_523 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
   server: 172.104.127.208
   type: ssr
 - cipher: aes-256-cfb
@@ -694,55 +643,59 @@ proxies:
   name: "\U0001F1EF\U0001F1F5 JP_524 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  server: 172.105.215.232
+  protocol_param: t.me/SSRSUB
+  server: 172.105.192.135
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_525 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  server: 172.104.99.210
+  server: 172.104.127.208
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_526 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
-  server: 172.105.215.232
+  protocol_param: t.me/SSRSUB
+  server: 172.104.99.210
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_527 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.104.127.208
+  server: 172.104.99.210
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_528 "
   obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  server: 172.104.127.208
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.105.192.135
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_529 "
   obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
-  protocol_param: t.me/SSRSUB
+  protocol_param: WWW.YOUNEED.WIN
   server: 172.105.192.135
   type: ssr
 - cipher: aes-256-cfb
@@ -752,6 +705,7 @@ proxies:
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   protocol: origin
+  protocol_param: t.me/SSRSUB
   server: 172.104.127.208
   type: ssr
 - cipher: aes-256-cfb
@@ -761,81 +715,97 @@ proxies:
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
   protocol: origin
-  server: 172.104.99.210
+  protocol_param: t.me/SSRSUB
+  server: 172.105.215.232
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_532 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
+  protocol_param: t.me/SSRSUB
   server: 172.105.192.135
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_533 "
   obfs: plain
-  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8097
+  port: 8099
   protocol: origin
-  protocol_param: WWW.YOUNEED.WIN
-  server: 172.105.192.135
+  protocol_param: t.me/SSRSUB
+  server: 172.104.99.210
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_534 "
   obfs: plain
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.104.127.208
-  type: ssr
-- cipher: aes-256-cfb
-  country: "\U0001F1EF\U0001F1F5 JP"
-  name: "\U0001F1EF\U0001F1F5 JP_535 "
-  obfs: plain
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
+  port: 8097
   protocol: origin
   protocol_param: t.me/SSRSUB
   server: 172.105.215.232
   type: ssr
 - cipher: aes-256-cfb
   country: "\U0001F1EF\U0001F1F5 JP"
+  name: "\U0001F1EF\U0001F1F5 JP_535 "
+  obfs: tls1.2_ticket_auth
+  password: free-ssr.xyz
+  port: 11867
+  protocol: auth_aes128_md5
+  server: 141.164.56.246
+  type: ssr
+- cipher: aes-256-cfb
+  country: "\U0001F1EF\U0001F1F5 JP"
   name: "\U0001F1EF\U0001F1F5 JP_536 "
   obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  protocol: origin
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.104.99.210
+  type: ssr
+- cipher: aes-256-cfb
+  country: "\U0001F1EF\U0001F1F5 JP"
+  name: "\U0001F1EF\U0001F1F5 JP_537 "
+  obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   protocol: origin
-  protocol_param: t.me/SSRSUB
-  server: 172.105.192.135
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.105.215.232
+  type: ssr
+- cipher: aes-256-cfb
+  country: "\U0001F1EF\U0001F1F5 JP"
+  name: "\U0001F1EF\U0001F1F5 JP_538 "
+  obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8097
+  protocol: origin
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.104.99.210
+  type: ssr
+- cipher: aes-256-cfb
+  country: "\U0001F1EF\U0001F1F5 JP"
+  name: "\U0001F1EF\U0001F1F5 JP_539 "
+  obfs: plain
+  obfs_param: WWW.YOUNEED.WIN
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8097
+  protocol: origin
+  protocol_param: WWW.YOUNEED.WIN
+  server: 172.104.127.208
   type: ssr
 - alterId: 46
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_537 "
-  network: ws
-  port: 443
-  server: 202.182.116.39
-  servername: fivedemands.ml
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a555502c-127a-11eb-816f-56000305f87e
-  ws-headers:
-    HOST: fivedemands.ml
-  ws-path: /Mn7VciRF/
-- alterId: 46
-  cipher: auto
-  country: "\U0001F1EF\U0001F1F5 JP"
-  http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_538 "
+  name: "\U0001F1EF\U0001F1F5 JP_540 "
   network: ws
   port: 443
   server: 141.164.62.146
@@ -851,7 +821,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_539 "
+  name: "\U0001F1EF\U0001F1F5 JP_541 "
   network: ws
   port: 443
   server: 207.148.89.142
@@ -867,7 +837,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_540 "
+  name: "\U0001F1EF\U0001F1F5 JP_542 "
   network: ws
   port: 443
   server: 198.13.50.113
@@ -883,7 +853,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_541 "
+  name: "\U0001F1EF\U0001F1F5 JP_543 "
   network: ws
   port: 443
   server: 141.164.44.174
@@ -899,7 +869,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_542 "
+  name: "\U0001F1EF\U0001F1F5 JP_544 "
   network: ws
   port: 443
   server: 141.164.44.175
@@ -915,7 +885,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_543 "
+  name: "\U0001F1EF\U0001F1F5 JP_545 "
   network: ws
   port: 443
   server: 141.164.35.210
@@ -931,7 +901,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_544 "
+  name: "\U0001F1EF\U0001F1F5 JP_546 "
   network: ws
   port: 443
   server: 141.164.52.226
@@ -947,7 +917,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_545 "
+  name: "\U0001F1EF\U0001F1F5 JP_547 "
   network: ws
   port: 443
   server: 141.164.41.43
@@ -963,7 +933,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_546 "
+  name: "\U0001F1EF\U0001F1F5 JP_548 "
   network: ws
   port: 443
   server: 124.156.210.208
@@ -979,7 +949,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_547 "
+  name: "\U0001F1EF\U0001F1F5 JP_549 "
   network: ws
   port: 443
   server: 141.164.43.130
@@ -995,7 +965,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_548 "
+  name: "\U0001F1EF\U0001F1F5 JP_550 "
   network: ws
   port: 3306
   server: 52.196.144.61
@@ -1010,7 +980,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_549 "
+  name: "\U0001F1EF\U0001F1F5 JP_551 "
   network: ws
   port: 80
   server: 52.196.144.61
@@ -1025,7 +995,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_550 "
+  name: "\U0001F1EF\U0001F1F5 JP_552 "
   network: ws
   port: 443
   server: 167.179.98.126
@@ -1041,7 +1011,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_551 "
+  name: "\U0001F1EF\U0001F1F5 JP_553 "
   network: ws
   port: 443
   server: 198.13.48.18
@@ -1057,7 +1027,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_552 "
+  name: "\U0001F1EF\U0001F1F5 JP_554 "
   network: ws
   port: 443
   server: 167.179.109.28
@@ -1073,7 +1043,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_553 "
+  name: "\U0001F1EF\U0001F1F5 JP_555 "
   network: ws
   port: 443
   server: 198.13.63.9
@@ -1089,7 +1059,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_554 "
+  name: "\U0001F1EF\U0001F1F5 JP_556 "
   network: ws
   port: 443
   server: 141.164.34.180
@@ -1105,7 +1075,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_555 "
+  name: "\U0001F1EF\U0001F1F5 JP_557 "
   network: ws
   port: 666
   server: 40.81.210.242
@@ -1120,7 +1090,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_556 "
+  name: "\U0001F1EF\U0001F1F5 JP_558 "
   network: ws
   port: 443
   server: 40.81.210.59
@@ -1135,7 +1105,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_557 "
+  name: "\U0001F1EF\U0001F1F5 JP_559 "
   network: ws
   port: 443
   server: 149.28.30.207
@@ -1151,7 +1121,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_558 "
+  name: "\U0001F1EF\U0001F1F5 JP_560 "
   network: ws
   port: 443
   server: 202.182.98.19
@@ -1167,7 +1137,7 @@ proxies:
   cipher: auto
   country: "\U0001F1EF\U0001F1F5 JP"
   http-opts: {}
-  name: "\U0001F1EF\U0001F1F5 JP_559 "
+  name: "\U0001F1EF\U0001F1F5 JP_561 "
   network: ws
   port: 443
   server: 45.77.8.144
@@ -1179,124 +1149,105 @@ proxies:
   ws-headers:
     HOST: chinahumanr.tk
   ws-path: /neVuw2Yg/
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_560 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 61.14.210.242
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_561 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 61.14.210.232
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_562 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 61.14.210.237
-  type: ss
+- alterId: 46
+  cipher: auto
+  country: "\U0001F1EF\U0001F1F5 JP"
+  http-opts: {}
+  name: "\U0001F1EF\U0001F1F5 JP_562 "
+  network: ws
+  port: 443
+  server: 202.182.116.39
+  servername: fivedemands.ml
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a555502c-127a-11eb-816f-56000305f87e
+  ws-headers:
+    HOST: fivedemands.ml
+  ws-path: /Mn7VciRF/
 - cipher: aes-256-gcm
   country: "\U0001F1F0\U0001F1F7 KR"
   name: "\U0001F1F0\U0001F1F7 KR_563 "
-  password: yxGY7A5MczQYg6UqSFx9u78V
-  port: 34762
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
   server: 27.255.77.195
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F0\U0001F1F7 KR"
   name: "\U0001F1F0\U0001F1F7 KR_564 "
-  password: yxGY7A5MczQYg6UqSFx9u78V
-  port: 34762
-  server: 61.14.210.237
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_565 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 61.14.210.239
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_566 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 27.255.77.226
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_567 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 27.255.77.195
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_568 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 103.249.28.229
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_569 "
+  name: "\U0001F1F0\U0001F1F7 KR_565 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 103.249.28.227
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F0\U0001F1F7 KR"
-  name: "\U0001F1F0\U0001F1F7 KR_570 "
+  name: "\U0001F1F0\U0001F1F7 KR_566 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 103.249.31.24
   type: ss
 - cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_895 "
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_567 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 2.58.241.43
+  server: 61.14.210.232
   type: ss
 - cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_896 "
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_568 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 2.58.241.27
+  server: 61.14.210.237
   type: ss
 - cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_897 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 2.58.241.45
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_569 "
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  port: 34762
+  server: 27.255.77.195
   type: ss
 - cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_898 "
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_570 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 2.58.241.5
+  server: 61.14.210.239
   type: ss
 - cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_899 "
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_571 "
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  port: 34762
+  server: 61.14.210.237
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_572 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
-  server: 103.98.75.73
+  server: 61.14.210.242
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F0\U0001F1F7 KR"
+  name: "\U0001F1F0\U0001F1F7 KR_573 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 27.255.77.226
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F9\U0001F1FC TW"
   name: "\U0001F1F9\U0001F1FC TW_900 "
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-  port: 31572
-  server: 103.98.75.71
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  port: 34762
+  server: 103.98.74.227
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F9\U0001F1FC TW"
@@ -1308,58 +1259,93 @@ proxies:
 - cipher: aes-256-gcm
   country: "\U0001F1F9\U0001F1FC TW"
   name: "\U0001F1F9\U0001F1FC TW_902 "
-  password: yxGY7A5MczQYg6UqSFx9u78V
-  port: 34762
-  server: 103.98.74.227
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_903 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 2.58.242.157
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_904 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 2.58.242.155
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_905 "
-  password: g4T8RvXDZ3xkbyJcwjJCsHHP
-  port: 35029
-  server: 2.58.242.43
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_906 "
-  password: yxGY7A5MczQYg6UqSFx9u78V
-  port: 34762
-  server: 103.98.75.71
-  type: ss
-- cipher: aes-256-gcm
-  country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_907 "
   password: xpQwyV4W5FdA6NMANJJx73US
   port: 38033
   server: 2.58.242.43
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_908 "
+  name: "\U0001F1F9\U0001F1FC TW_903 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.242.43
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_904 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 2.58.241.3
   type: ss
 - cipher: aes-256-gcm
   country: "\U0001F1F9\U0001F1FC TW"
-  name: "\U0001F1F9\U0001F1FC TW_909 "
+  name: "\U0001F1F9\U0001F1FC TW_905 "
   password: g4T8RvXDZ3xkbyJcwjJCsHHP
   port: 35029
   server: 103.98.74.229
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_906 "
+  password: n8w4StnbVD9dmXYn4Ajt87EA
+  port: 31572
+  server: 103.98.75.71
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_907 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.241.27
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_908 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 103.98.75.73
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_909 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.242.155
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_910 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.241.45
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_911 "
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  port: 34762
+  server: 103.98.75.71
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_912 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.242.157
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_913 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.241.43
+  type: ss
+- cipher: aes-256-gcm
+  country: "\U0001F1F9\U0001F1FC TW"
+  name: "\U0001F1F9\U0001F1FC TW_914 "
+  password: g4T8RvXDZ3xkbyJcwjJCsHHP
+  port: 35029
+  server: 2.58.241.5
   type: ss
 proxy-groups:
 - name: "\U0001F680 \u6A21\u5F0F\u9009\u62E9"
@@ -1372,11 +1358,9 @@ proxy-groups:
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies: &id001
-  - "\U0001F1E8\U0001F1F3 CN_167 "
-  - "\U0001F1E8\U0001F1F3 CN_168 "
   - "\U0001F1E8\U0001F1F3 CN_169 "
   - "\U0001F1E8\U0001F1F3 CN_170 "
-  - "\U0001F1ED\U0001F1F0 HK_374 "
+  - "\U0001F1E8\U0001F1F3 CN_171 "
   - "\U0001F1ED\U0001F1F0 HK_375 "
   - "\U0001F1ED\U0001F1F0 HK_376 "
   - "\U0001F1ED\U0001F1F0 HK_377 "
@@ -1416,7 +1400,6 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK_411 "
   - "\U0001F1ED\U0001F1F0 HK_412 "
   - "\U0001F1ED\U0001F1F0 HK_413 "
-  - "\U0001F1EF\U0001F1F5 JP_496 "
   - "\U0001F1EF\U0001F1F5 JP_497 "
   - "\U0001F1EF\U0001F1F5 JP_498 "
   - "\U0001F1EF\U0001F1F5 JP_499 "
@@ -1480,9 +1463,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP_557 "
   - "\U0001F1EF\U0001F1F5 JP_558 "
   - "\U0001F1EF\U0001F1F5 JP_559 "
-  - "\U0001F1F0\U0001F1F7 KR_560 "
-  - "\U0001F1F0\U0001F1F7 KR_561 "
-  - "\U0001F1F0\U0001F1F7 KR_562 "
+  - "\U0001F1EF\U0001F1F5 JP_560 "
+  - "\U0001F1EF\U0001F1F5 JP_561 "
+  - "\U0001F1EF\U0001F1F5 JP_562 "
   - "\U0001F1F0\U0001F1F7 KR_563 "
   - "\U0001F1F0\U0001F1F7 KR_564 "
   - "\U0001F1F0\U0001F1F7 KR_565 "
@@ -1491,11 +1474,9 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR_568 "
   - "\U0001F1F0\U0001F1F7 KR_569 "
   - "\U0001F1F0\U0001F1F7 KR_570 "
-  - "\U0001F1F9\U0001F1FC TW_895 "
-  - "\U0001F1F9\U0001F1FC TW_896 "
-  - "\U0001F1F9\U0001F1FC TW_897 "
-  - "\U0001F1F9\U0001F1FC TW_898 "
-  - "\U0001F1F9\U0001F1FC TW_899 "
+  - "\U0001F1F0\U0001F1F7 KR_571 "
+  - "\U0001F1F0\U0001F1F7 KR_572 "
+  - "\U0001F1F0\U0001F1F7 KR_573 "
   - "\U0001F1F9\U0001F1FC TW_900 "
   - "\U0001F1F9\U0001F1FC TW_901 "
   - "\U0001F1F9\U0001F1FC TW_902 "
@@ -1506,6 +1487,11 @@ proxy-groups:
   - "\U0001F1F9\U0001F1FC TW_907 "
   - "\U0001F1F9\U0001F1FC TW_908 "
   - "\U0001F1F9\U0001F1FC TW_909 "
+  - "\U0001F1F9\U0001F1FC TW_910 "
+  - "\U0001F1F9\U0001F1FC TW_911 "
+  - "\U0001F1F9\U0001F1FC TW_912 "
+  - "\U0001F1F9\U0001F1FC TW_913 "
+  - "\U0001F1F9\U0001F1FC TW_914 "
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 180
